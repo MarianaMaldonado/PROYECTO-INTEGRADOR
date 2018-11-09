@@ -1,0 +1,146 @@
+html {
+    font size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+/*HEADER*/
+.header-fix{
+    background-color: black;
+    padding: 2rem 0;
+}
+
+.header-fix a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+   display: inline-block; 
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: rgba(204, 204, 204, 0.863);
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+
+}
+
+
+/* MÓDULO DE FORMULARIO DE REGISTRO */
+body{
+    background-color: rgba(0, 0, 0, 0.568);
+    margin: 0;
+}
+
+.container{
+    max-width: 550px;
+    height: auto;
+    background-color:#D8D8D8;
+    margin-top: 10% auto;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.form_top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid 4rem #669933;
+    margin-bottom: 1rem;
+
+}
+
+.form_top h2{
+    font-weight: bold;
+    color: #091820;
+    font-size: 18px;
+}
+
+span{
+    color:#694217;
+    font-size: 28px;
+}
+
+.form_reg{
+    padding: 0% 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.input, .btn_submit{
+    background-color: #EFEFEF;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+    transition: all .5s;
+}
+
+.input:focus{
+    border-bottom: solid  #091820;
+}
+
+.btn_submit{
+    width: 40%;
+    border-bottom: none;
+    background-color: #31B1E5;
+    color: white;
+}
+
+.btn_submit:hover{
+    background-color: #4C9ED9;
+}
+
+.background-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+    display: block;
+    background-image: url('https://spark.adobe.com/images/landing/preview-wattpad-cover-maker-thumbnail.jpg');
+    width: 1400px;
+    height: 670px;
+  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+
+
